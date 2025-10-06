@@ -6,7 +6,7 @@ from datetime import datetime
 class CountryEntity:
     id: int
     name: str
-    code: str
     country_code: str
+    currency_code: str
     created_at: datetime
     updated_at: datetime
